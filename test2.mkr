@@ -1,0 +1,5 @@
+
+	# square dup mul ;
+	# sumsquare &1 square &2 square add ;
+
+	sumsquare 3 4 

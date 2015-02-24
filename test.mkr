@@ -1,0 +1,7 @@
+
+# quarter 18446744073709551615 ;
+# fixed ( a -- r ) 1 quarter add mul ;
+# fmul mul quarter swap1 / ;
+# estimate ( a -- i ) 1 quarter add swap1 / ;
+
+5 fixed 2 fixed add estimate 0 0 log1
